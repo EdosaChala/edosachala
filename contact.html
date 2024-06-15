@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact.html</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+*{
+
+  padding: 0;
+  margin: 0;
+  
+  background-color: white;
+
+}.contact{
+  margin-left: 125px;
+  margin-right: 400px;
+  color: white;
+}
+h1.TOOLS{
+  padding: 5px;
+  margin: 20px; ;
+  background-color: aqua;
+  color: rgb(32, 138, 29);
+  text-align: center;
+}
+.yes{
+  text-align: center;
+
+
+margin-left: 100px;
+}.input{
+
+color: blue;
+}.SON{
+  
+width: 30%;
+padding: 12px 20px;
+margin: 8px 0;
+margin-right: 100px;
+display: inline-block;
+border: 1px solid ;
+border-radius: 4px;
+box-sizing: border-box;
+
+background-color: white;
+
+}.LOGIN{
+  width: 10%;
+  background-color: aqua;
+   margin: 10px;
+   padding: 14px 12px;
+}
+.LOGIN:hover{
+background-color: rgb(247, 152, 11);
+color: chartreuse;
+}.PLEASE{
+
+  width: 30%;
+  padding: 20px 30px;
+ background-color: white;
+ color: hsl(180, 48%, 42%);
+}.TOOLS{
+margin-top: 50px;
+padding: 40px;
+
+}
+.reset{
+  width: 10%;
+  background-color:white;
+   margin: 10px;
+   padding: 14px 12px;
+   color: black;
+
+}
+
+  .reset:hover{
+background-color:white;
+color: chartreuse;
+}
+.EDOSA{
+  color: blue;
+}
+
+</style>
+</head>
+<body>
+
+<div class="contact">
+  <h1 class="TOOLS"> CONTACT ME</h1>
+<form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+  <div class="yes">
+  <input type="hidden" name="access_key" value="d881e5b0-608a-4449-a0df-e40aa11f3530">
+  <div class="input">
+   <label for="fname">FName:</label> <br>
+ <input type="text" name="name" placeholder="enter your first name" class="SON" maxlength="20" required><br>
+ <label for="lname">LName:</label> <br>
+ <input type="text" name="name" placeholder="enter your last name" class="SON" maxlength="20" required>
+ </div>
+ <div>
+  <label for="email" class="EDOSA">Email</label> <br>
+  <input type="email" name="email" placeholder="enter your email" class="SON" maxlength="40">
+ </div>
+ <div>
+  <label for="message" class="TWO">Message</label> <br>
+ <textarea name="message" id="" placeholder="message is allowed here" class="PLEASE" rows="10" cols="15"></textarea><br>
+ </div>
+ <div>
+  <button type="send" class="LOGIN">send</button><br>
+  <button type="reset" class="reset">reset</button><br>
+ </div>
+  </div>
+</form>
+<div class="book" style="align-items: center;margin-top: 8px;margin-left: 900px;">
+  <a href="https://" class="fa fa-facebook"></a>
+  <a href="" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+  <a href="https://" class="fa fa-telegram"></a>
+<a href="#" class="first">More</a>
+</div> 
+
+
+</body>
+</html>
+  

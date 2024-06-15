@@ -1,0 +1,132 @@
+*{
+   padding: 3px;
+   margin: 3px; 
+
+   
+  
+
+}
+.main{
+    width: 100%;
+    height: 100;
+   background-position: center;
+  font-family: sans-serif;
+
+  position: fixed;
+
+}
+
+.ul{
+ margin-top: 5px;
+ text-align: center;
+ position: fixed;
+}
+ul li{
+  list-style: none;
+  display: inline;
+  padding: 10px 16px;
+
+  border-color: black;
+
+}
+ul li a{
+  color: #00000b;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: -3%;
+}
+ul li a:hover{
+  color: rgb(18, 228, 165);
+}
+.great{
+  margin: 7px;
+  margin-top: 20px;
+  margin-left: 30px;
+
+}
+.great h1{
+  font-size: 50px;
+  margin-right: 110;
+  color: crimson;
+  margin-left: -1%;
+}
+.great h3{
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: deeppink;
+}
+
+.image{
+  width: 1000px;
+  height: 2000;
+  border-width: 100px;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 50px;
+  border: none; 
+  position: fixed;
+}
+.book{
+  position: fixed;
+  margin-top: 67px;
+}
+.book a{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+background: transparent;
+border: 2px solid rgb(21, 222, 236);
+border-radius: 60%;
+font-size: 20px;
+color: rgb(27, 12, 228);
+background: rgb(211, 123, 123);
+}
+.book a:hover{
+  background: #0ef;
+  color: blue;
+  box-shadow: 0 0 20px aqua;
+}
+.first{
+  display: inline;
+  margin-left: 20px;
+  margin-bottom: 100px;
+   color: rgb(8, 0, 0);
+   border-radius: 4px;
+   font-size: 16px;
+   letter-spacing: 1px;
+   background: rgb(255, 157, 0);
+   position: fixed;
+   text-decoration: none;
+}
+.first:hover{
+  box-shadow:2 2 5px rgb(172, 192, 58);
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: white;
+  background-size: cover;
+}
+h1{
+  align-items: center;
+  margin-left: 40%;
+
+}
+.contact-form{
+display: inline-block;
+background: rgb(27, 153, 100);
+padding: 14p 0;
+color: rgb(6, 8, 8);
+text-transform: capitalize;
+cursor: pointer;
+}
+h1.TOOLS{
+  background-color: #0ef;
+  color: blueviolet;
+}
+
+
